@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>얼마면 돼?</title>
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+</head>
+
+<body>
+    <main id="app">
+        <!-- 타이틀 -->
+        <h1 class="title">
+            <img src="./src/img/Title.png" alt="얼마면 돼?" class="img-tit">
+        </h1>
+        <!-- 타이틀 -->
+        <!-- 가격과 물건 입력 -->
+        <p class="txt-intro">사고싶은 물건이 있으신가요? <br><strong>하루</strong>에 얼마면 되는지 계산해드릴게요!</p>
+        <form class="cont-inp">
+            <p class="txt-cost">나는 <input id="inp-cost" type="text" placeholder="예) 1200000" required>원 짜리, </p>
+            <p class="txt-want"><input type="text" id="inp-want" placeholder="예) 맥북 에어" required>이(가) 사고싶다.</p>
+            <p>사용 기간 : <input id="useDate" type="text" required> 년</p>
+        </form>
+        <button type="button" class="btn-calc">계산하기</button>
+        <button type="button" class="btn-share">공유하기</button>
+        <img src="/src/img/lovepepe.png" alt="" class="lovepepe">
+        <!-- 가격과 물건 입력 -->
+        <!-- 푸터 -->
+        <footer class="footer">
+            <p>Copyright ⓒdyFlower All Rights Reserved</p>
+            <div class="a-wrap">
+                <a href="https://www.instagram.com/dy.flower/" target="_blank">Instagram</a>
+                <a href="https://velog.io/@dyflower" target="_blank">Velog</a>
+                <a href=" https://github.com/dyFlower" target="_blank">GitHub</a>
+            </div>
+        </footer>
+
+        <!-- 푸터 -->
+
+        <!-- 결과 확인 모달 -->
+        <section id="modal">
+            <h2 class="ir">계산결과 모달</h2>
+            <article class="modal-wrap">
+                <h3 class="ir">계산 결과</h3>
+                <p class="txt-result">하루에 <br> <span class="result">000</span>원이면 돼!!</p>
+                <button type="button" class="btn-close">X</button>
+                <img class="img-modal" src="/src/img/happyPePe.jpeg" alt="">
+                <a class="a-buy" target="_blank">사러 가기</a>
+            </article>
+        </section>
+        <!-- 결과 확인 모달 -->
+    </main>
+    <script src="/src/js/App.js"></script>
+</body>
+
+</html>

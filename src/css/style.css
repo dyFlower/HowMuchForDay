@@ -1,0 +1,125 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(3, 57, 3);
+    color: white;
+}
+
+.title {
+    margin-top: 40px;
+}
+.txt-intro {
+    margin-top: 60px;
+    font-size: 2rem;
+}
+.txt-intro strong {
+    color: #ffcd4b;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.cont-inp {
+    margin-top: 30px;
+    font-size: 2rem;
+}
+.cont-inp input {
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 30px;
+}
+.cont-inp ::placeholder {
+    color: green;
+}
+.btn-calc {
+    margin-top: 90px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffcd4b;
+    color: white;
+    font-size: 2rem;
+}
+
+.lovepepe {
+    width: 50%;
+    opacity: 40%;
+}
+.footer {
+    text-align: center;
+}
+
+.btn-share {
+    margin-top: 30px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffcd4b;
+    color: white;
+    font-size: 2rem;
+}
+.a-wrap {
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+/* 모달 */
+#modal {
+    display: none;
+    position: fixed;
+    margin-top: 10%;
+}
+.modal-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(1, 29, 1);
+    border-radius: 15px;
+}
+.txt-result {
+    font-size: 2.2rem;
+}
+.btn-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.img-modal {
+    margin-top: 30px;
+}
+.a-buy {
+    margin-top: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+@media (max-width: 500px) {
+    .cont-inp {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .cont-inp input {
+        width: 30%;
+        font-size: 1.8rem;
+    }
+    .cont-inp ::placeholder {
+        font-size: 1.2rem;
+    }
+    .txt-intro {
+        font-size: 1.5rem;
+    }
+    .txt-intro strong {
+        font-size: 1.8rem;
+    }
+}
