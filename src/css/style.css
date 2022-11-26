@@ -1,4 +1,6 @@
-body{background-color: rgb(3, 57, 3);}
+body {
+    background-color: rgb(3, 57, 3);
+}
 #app {
     display: flex;
     flex-direction: column;
@@ -7,13 +9,14 @@ body{background-color: rgb(3, 57, 3);}
 }
 
 .title {
-    width :350px;
+    width: 350px;
 }
-.title img{
+.title img {
     width: 100%;
 }
 .txt-intro {
     font-size: 2rem;
+    text-align: center;
 }
 .txt-intro strong {
     color: #ffcd4b;
@@ -37,13 +40,18 @@ body{background-color: rgb(3, 57, 3);}
     color: green;
 }
 .btn-calc {
-    margin-top: 90px;
+    margin-top: 60px;
     padding: 15px 40px;
     border-radius: 10px;
     border: none;
     background-color: #ffcd4b;
     color: white;
     font-size: 2rem;
+}
+
+.btn-calc:hover,
+.btn-share:hover {
+    background-color: #dba317;
 }
 
 .lovepepe {
