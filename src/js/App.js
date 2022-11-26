@@ -58,3 +58,4 @@ function copyUrl() {
 btnCalc.addEventListener('click', calculate);
 btnShare.addEventListener('click', copyUrl);
 btnClose.addEventListener('click', closeModal);
+
